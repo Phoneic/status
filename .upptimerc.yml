@@ -7,12 +7,8 @@ sites:
   - name: Productive.ai
     url: https://productive.ai
 
-# Schedule for checks (every 5 minutes)
-schedule: "*/5 * * * *"
-
 status-website:
   cname: status.productive.ai
-  baseUrl: /status
   name: Productive.ai Status
   logoUrl: /assets/logo.png
   introMessage: >
